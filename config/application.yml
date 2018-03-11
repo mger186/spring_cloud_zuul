@@ -9,7 +9,7 @@ spring:
     application:
         name: service-zuul
 server:
-  port: 8000
+  port: 8001
 eureka:
    instance:
      lease-renewal-interval-in-seconds: 1      # 心跳时间，即服务续约间隔时间（缺省为30s）
